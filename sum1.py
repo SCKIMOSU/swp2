@@ -1,4 +1,5 @@
-i = 1; sum = 0
+i = 1
+sum = 0
 
 while True:
     sum  += i
