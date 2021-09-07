@@ -1,10 +1,11 @@
-i = 1
-sum = 0
+sum1 = 0
 
-while True:
-    sum  += i
-    if i == 10:
-        break
-    i = i + 1
+for i in range(1, 11):
+    sum1 += i
 
-print("sum = " + str(sum))
+print("sum1 = %d" % sum1)
+
+n = 10
+sum2 = n * (n + 1) / 2  # 한 줄 수학 공식 --> 계산 코딩
+print("sum2 = %d" % sum2)
+print(55)
